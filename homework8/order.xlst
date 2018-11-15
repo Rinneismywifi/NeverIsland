@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+	<xsl:template match="ArrayOfOrder">
+		<html>
+			<head>
+				<title>Orders' Details</title>
+			</head>
+			<body>
+                <table border="1">
+                    <tr>
+                        <th>Order</th>
+                        <th>Production</th>
+                        <th>Cost</th>
+                        <th>Customer</th>
+                        <th>Phone number</th>
+                    </tr>
+                    <xsl:for-each select="Order">
+                    <tr>
+				            <td><xsl:value-of select="num" /></td>
+                            <td><xsl:value-of select="product" /></td>
+                            <td><xsl:value-of select="cost" /></td>
+                            <td><xsl:value-of select="name" /></td>
+                            <td><xsl:value-of select="phone" /></td>
+                    </tr>
+                    </xsl:for-each>
+                </table>
+			</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>

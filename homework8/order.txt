@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <num>20091107</num>
+    <name>Rinne</name>
+    <product>CD-5cm</product>
+    <cost>5</cost>
+    <phone>199829381</phone>
+  </Order>
+  <Order>
+    <num>20111109</num>
+    <name>Stsuna</name>
+    <product>Time Machine</product>
+    <cost>1000000</cost>
+    <phone>00923812</phone>
+  </Order>
+  <Order>
+    <num>20170818</num>
+    <name>Kunsu</name>
+    <product>Dream</product>
+    <cost>0</cost>
+    <phone>9812281210</phone>
+  </Order>
+  <Order>
+    <num>20181111</num>
+    <name>Xyw</name>
+    <product>Wifi</product>
+    <cost>230</cost>
+    <phone>18352750942</phone>
+  </Order>
+</ArrayOfOrder>
